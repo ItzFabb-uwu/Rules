@@ -1,0 +1,14 @@
+name: Rules
+author: ItzFabb
+version: 1
+api: ["3", "4"]
+main: ItzFabb\Main
+
+commands:
+  rules:
+    description: read the server rules 
+    permission: rules.command
+    
+permission:
+  rules.command:
+    description: allows player to use /rules
